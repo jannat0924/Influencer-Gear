@@ -132,16 +132,90 @@ font-weight: 700;
 text-align: left;
 width: 65%;
 }
+.more{
+    color: rgba(224, 44, 109, 0.87);
+font-size: 1rem;
+font-weight: 700;
+text-align: right;
+}
+.feature{
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    margin-bottom: 80px;
+}
+.feature-title{
+    color: rgb(10, 8, 38);
 
+font-size: 1.4rem;
+font-weight: 700;
+text-align: left;
+margin-bottom: 5px;
+margin-top: 32px;
+}
+.feature-description{
+    color: rgb(108, 108, 108);
+font-size: 0.85rem;
+font-weight: 700;
+margin-top: 0px;
+text-align: left;
+}
+.feature-btn{
+    color: rgb(255, 255, 255);
+background: rgb(224, 44, 109);
+font-size: 0,9rem;
+font-weight: 700;
+text-align: center;
+padding: 4px 11px 4px 11px;
+border: none;
+margin-bottom: 20px;
+}
 
+footer{
+   
+background: rgb(9, 8, 48)
+}
+.footer-title{
+color: rgb(255, 255, 255);
+font-size: 1.2rem;
+font-weight: 700;
+text-align: center;
+padding-top: 70px;
+    }
+    .footer-description{
+  color: rgb(217, 219, 225);
 
+font-size: 0.4rem;
+font-weight: 700;
+text-align:center;
+    }
+.icons{
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    margin-top: 22px;
+    padding-bottom: 70px;
+}
+.icons img{
+    height: 18px;
+    width: 18px;
+    background-color: rgb(12, 12, 49);
+}
 @media screen and (max-width : 576px) {
+.hide{
+    visibility: hidden;
+}
 
-.start{
+.start , .feature{
     flex-direction: column-reverse;
     gap: 0px;
 }
-
+.feature-content ,.feature-title , .feature-description{
+    text-align: center;
+}
+.feature img{
+    width: 100%;
+}
   .main-camera{
   width: 57%;
    margin-left: -312px;
@@ -153,7 +227,11 @@ width: 65%;
     margin-top: 5px;
 }
 
+.collection{
 
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+}
     
 
 
