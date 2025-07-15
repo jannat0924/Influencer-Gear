@@ -15,6 +15,7 @@ main , header{
 nav{
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 60px;
 }
 .nav-title{
     color: rgb(58, 58, 58);
@@ -33,4 +34,64 @@ font-weight: 600;
 }
 .nav-anchor{
   text-decoration: none;
+  
 }
+.start{
+    justify-content: space-between;
+    gap: 180px;
+    margin-bottom: 100px;
+}
+.start-title{
+color: rgb(58, 58, 58);
+font-size: 2.1rem;
+font-weight: 700;
+text-align: left;
+margin-bottom: 0px;
+margin-top: 67px;
+}
+.start-description{
+color: rgb(58, 58, 58);
+font-size: 0.7rem;
+font-weight: 600;
+text-align: left;
+}
+.btn{
+    color: rgb(255, 255, 255);
+font-size: 0.7rem;
+font-weight: 700;
+text-align: center;
+border-radius: 41px;
+background: rgb(224, 44, 109);
+padding: 3px 10px 3px 10px;
+border: none;
+}
+.bg-image{
+    width: 100%;
+}
+.main-camera{
+ 
+   margin-left: -450px;
+   position: absolute;
+}
+
+@media screen and (max-width : 576px) {
+
+.start{
+    flex-direction: column-reverse;
+    gap: 0px;
+}
+
+  .main-camera{
+  width: 57%;
+   margin-left: -312px;
+   margin-top: 52px;
+   position: absolute;
+
+}
+.start-title{
+    margin-top: 5px;
+}
+
+}
+
+
